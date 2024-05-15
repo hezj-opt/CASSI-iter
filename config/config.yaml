@@ -1,0 +1,23 @@
+# config about path
+path:
+  gt_path: ../dataset/KAIST/test/scene09.mat
+  mask_path: ../models/data/masks/mask.mat
+  # x0_path: result/pnp-dip/kaist_scene09.mat
+  x0_path: NULL
+
+# config about device
+device: cuda:9
+
+# config about solver
+## more specific config for different solver in config_solver.yaml
+solver:
+  name: ADMM
+  step: 2
+  iter_num: 200
+
+# config about denoiser
+# more specific config for different solver in config_denoiser.yaml
+denoiser:
+  name: tv
+
+ 

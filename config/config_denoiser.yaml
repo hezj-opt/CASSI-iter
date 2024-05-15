@@ -1,0 +1,22 @@
+tv_args:
+  alpha: 10
+  lam: 1
+  iter_num: 20
+
+dip_tv_args:
+  alpha: 5
+  lam: 1
+  dip_iter: 1000
+
+wnnm_args:
+  patch_size: 6
+  area: 40
+
+hsicnn_args:
+  checkpoint: checkpoint/hsicnn.pth
+  sigma: [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
+
+dip_hsi_args:
+  checkpoint: checkpoint/hsicnn.pth
+  sigma: [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
+  dip_iter: 3000
